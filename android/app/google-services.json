@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640772229286",
+    "project_id": "deco-crm-e4f14",
+    "storage_bucket": "deco-crm-e4f14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640772229286:android:d5615b9d3e68e0c6b74c67",
+        "android_client_info": {
+          "package_name": "com.example.deco_crm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pHxaKRQSWuVXIdoCSpg3BVlQCtybBxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

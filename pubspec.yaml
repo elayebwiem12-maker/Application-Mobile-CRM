@@ -1,0 +1,58 @@
+name: deco_crm
+description: Application CRM Mobile - DECO PAS PLUS
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.10.0
+  cloud_firestore: ^6.5.0
+  firebase_auth: ^6.5.2
+  firebase_storage: ^13.4.2
+  firebase_messaging: 16.3.0  # NOUVEAU — Push Notifications (FCM)
+  flutter_local_notifications: ^18.0.0  # NOUVEAU — affichage notifications foreground
+  google_sign_in: ^6.2.1   # NOUVEAU — requis pour AuthService.signInWithGoogle()
+
+  # UI
+  google_fonts: ^8.1.0
+  fl_chart: ^1.2.0
+  flutter_slidable: ^4.0.3
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.2.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.4
+  flutter_rating_bar: ^4.0.1
+  percent_indicator: ^4.2.3
+  table_calendar: ^3.0.9
+  pdf: ^3.10.7
+  share_plus: ^10.0.0  # NOUVEAU — pour partager PDF/CSV
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Playfair
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
